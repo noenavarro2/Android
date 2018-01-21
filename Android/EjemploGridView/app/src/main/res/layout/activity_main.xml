@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.a2h.ejemplogridview.MainActivity"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/lblMensaje"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Selecciona una opcion: " />
+
+
+    <GridView
+        android:id="@+id/gridOpciones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="4"
+        android:columnWidth="80px"
+        android:horizontalSpacing="5px"
+        android:verticalSpacing="10px"
+        android:stretchMode="columnWidth"
+        android:layout_weight="4.25" />
+
+</LinearLayout>

@@ -1,0 +1,4 @@
+INSERT INTO alumnos (nom_alumno, foto,sonido) values("Noe", "fotonoe","sonidonoe");
+INSERT INTO alumnos (nom_alumno, foto,sonido) values("Noe2", "fotonoe2","sonidonoe2");
+INSERT INTO alumnos (nom_alumno, foto,sonido) values("Noe3", "fotonoe3","sonidonoe3");
+INSERT INTO alumnos (nom_alumno, foto,sonido) values("Noe4", "fotonoe4","sonidonoe4");

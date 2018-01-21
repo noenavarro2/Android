@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ListView
+        android:id="@+id/uno"
+        android:layout_width="387dp"
+        android:layout_height="72dp"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+
+    <ExpandableListView
+        android:id="@+id/cuatro"
+        android:layout_width="239dp"
+        android:layout_height="46dp"
+        tools:layout_editor_absoluteX="88dp"
+        tools:layout_editor_absoluteY="457dp"
+        tools:ignore="MissingConstraints" />
+
+    <ListView
+        android:id="@+id/tres"
+        android:layout_width="387dp"
+        android:layout_height="91dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="88dp"
+        tools:ignore="MissingConstraints"/>
+
+    <ListView
+        android:id="@+id/dos"
+        android:layout_width="376dp"
+        android:layout_height="99dp"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="187dp"
+        tools:ignore="MissingConstraints"/>
+
+
+</android.support.constraint.ConstraintLayout>
